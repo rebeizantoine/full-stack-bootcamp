@@ -54,5 +54,26 @@ var randomName = "John";
 var randomlastName = "Doe";
 
 
-var result = randomName + " " + randomlastName  ;
+var result = randomName + " " + randomlastName;
 console.log("Concatenated Name:", result);
+
+
+console.log(5 === "5");   // false (different types)
+console.log(5 !== "5");   // true (different types)
+
+// Loose equality and inequality (with type coercion)
+console.log(5 == "5");    // true (value is the same, type is coerced)
+console.log(5 != "5");    // false (value is the same, type is coerced)
+
+// Greater than and greater than or equals
+console.log(10 > 5);      // true
+console.log(10 >= 10);    // true
+
+// Less than and less than or equals
+console.log(3 < 7);       // true
+console.log(7 <= 7);      // true
+
+
+
+
+
