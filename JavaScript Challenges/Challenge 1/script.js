@@ -31,3 +31,20 @@ let number = 1215;
 let array = [];
 let string = "this is string";
 let object = null;
+
+var myText = "hello you";
+const counter = 3;
+const backtick = `This is my text using backticks ${counter} times`;
+
+const singleQuote = 'This is my text using single quotations ' + counter + ' times';
+
+const doubleQuote = "This is my text using double quotations " + counter + " times";
+
+const tryThisAlso = `This is my new version, it's the ${2 + 3}th version`;
+
+//console.log("Using backticks allows for easy and direct variable substitution using ${expression}.");
+console.log("Using single or double quotes does not perform variable substitution, and the placeholders are treated as plain text.");
+console.log(backtick);
+console.log(singleQuote);
+console.log(doubleQuote);
+console.log(tryThisAlso);
