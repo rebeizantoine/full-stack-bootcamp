@@ -2,6 +2,8 @@ console.log('I am linked now!');
 var name;
 name = "ANTOINE";
 alert("My name is: " + name)
+//"Challenge 1 - Done with Step 2"
+
 
 var age;
 const lastName = "Rebeiz";
@@ -14,6 +16,8 @@ DOB = "22032000";
 console.log("My age is: " + age);
 console.log("My lastName is:" + lastName);
 console.log("My DOB is: " + DOB);
+//"Challenge 1 - Done with Step 3"
+
 
 
 console.log("This is a text");
@@ -25,12 +29,15 @@ console.log([]);
 console.log(null);
 console.log(undefined);
 
+
+
 let text = "this is a text";
 let boolean = true;
 let number = 1215;
 let array = [];
 let string = "this is string";
 let object = null;
+//"Challenge 1 - Done with Step 4"
 
 var myText = "hello you";
 const counter = 3;
@@ -48,6 +55,7 @@ console.log(backtick);
 console.log(singleQuote);
 console.log(doubleQuote);
 console.log(tryThisAlso);
+//"Challenge 1 - Done with Step 5"
 
 
 var randomName = "John";
@@ -56,6 +64,7 @@ var randomlastName = "Doe";
 
 var result = randomName + " " + randomlastName;
 console.log("Concatenated Name:", result);
+//"Challenge 1 - Done with Step 6"
 
 
 console.log(5 === "5");   // false (different types)
@@ -72,6 +81,7 @@ console.log(10 >= 10);    // true
 // Less than and less than or equals
 console.log(3 < 7);       // true
 console.log(7 <= 7);      // true
+//"Challenge 1 - Done with Step 7"
 
 var result0 = 5 + 3 * 2;
 console.log("result0:", result0);
@@ -80,7 +90,7 @@ console.log("result1:", result1);
 var result2 = 10 / (2 + 3);
 console.log("result2:", result2);
 
-
+//"Challenge 1 - Done with Step 8"
 
 
 
