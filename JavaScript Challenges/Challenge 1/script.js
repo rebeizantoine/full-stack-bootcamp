@@ -48,3 +48,11 @@ console.log(backtick);
 console.log(singleQuote);
 console.log(doubleQuote);
 console.log(tryThisAlso);
+
+
+var randomName = "John";
+var randomlastName = "Doe";
+
+
+var result = randomName + " " + randomlastName  ;
+console.log("Concatenated Name:", result);
