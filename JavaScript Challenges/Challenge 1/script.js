@@ -73,6 +73,14 @@ console.log(10 >= 10);    // true
 console.log(3 < 7);       // true
 console.log(7 <= 7);      // true
 
+var result0 = 5 + 3 * 2;
+console.log("result0:", result0);
+var result1 = 10 / 2 + 3;
+console.log("result1:", result1);
+var result2 = 10 / (2 + 3);
+console.log("result2:", result2);
+
+
 
 
 
