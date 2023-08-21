@@ -4,7 +4,6 @@ name = "ANTOINE";
 alert("My name is: " + name)
 //"Challenge 1 - Done with Step 2"
 
-
 var age;
 const lastName = "Rebeiz";
 let DOB;
