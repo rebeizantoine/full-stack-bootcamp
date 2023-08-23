@@ -16,7 +16,7 @@ const personalInfo = {
 
 const nextThreeNumbers = [6, 7, 8];
 
-
+//spread les 3 points
 const allNumbers = [...fiveNumbers, ...nextThreeNumbers];
 
 
