@@ -42,6 +42,7 @@ paragraph.style.fontFamily = 'Helvetica';
 paragraph.style.border = '1px solid black';
 
 // Change heading tags style to italic
+//queryselectorALL la kel l h1 w kel h2
 const headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
 headings.forEach(heading => {
     heading.style.fontStyle = 'italic';
