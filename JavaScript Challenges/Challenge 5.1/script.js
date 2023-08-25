@@ -97,18 +97,3 @@ submitButton.textContent = 'Submit';
     input.style.marginBottom = '10px';
     form.appendChild(input);
 });
-
-// Append the form to the body same as before
-document.body.appendChild(form);
-
-// Add focus and blur event listeners to input fields
-[fullNameInput, emailInput, passwordInput, confirmPasswordInput].forEach(input => {
-    input.addEventListener('focus', () => {
-        // Change background color on focus
-        input.style.backgroundColor = 'lightyellow';
-    });
-    input.addEventListener('blur', () => {
-        // Revert background color on blur
-        input.style.backgroundColor = 'white';
-    });
-});
