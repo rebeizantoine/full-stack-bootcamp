@@ -94,3 +94,36 @@ const quotesArray = [
       "Hell, there are no rules here-- we're trying to accomplish something.",
   },
 ];
+const quoteContainer = document.createElement('div');
+quoteContainer.className = 'quote-container';
+
+quotesArray.forEach(quote => {
+    const blockquote = document.createElement('blockquote');
+    blockquote.innerHTML = `
+        "${quote.content}"
+        <div class="author">
+            &mdash;
+            <cite>${quote.author}</cite>
+        </div>
+    `;
+    quoteContainer.appendChild(blockquote);
+});
+
+document.body.appendChild(quoteContainer);
+
+const search= document.getElementById('authorSearch');
+const btn=document.getElementById('authorBtn');
+
+btn.addEventListener('click', () => {
+    const filterValue = search.value.toLowerCase();
+    const blockquotes = quoteContainer.querySelectorAll('blockquote');
+
+    blockquotes.forEach(blockquote => {
+        const author = blockquote.querySelector('cite').innerText.toLowerCase();
+        if (author.includes(filterValue)) {
+            blockquote.style.display = 'block';
+        } else {
+            blockquote.style.display = 'none';
+        }
+    });
+});
